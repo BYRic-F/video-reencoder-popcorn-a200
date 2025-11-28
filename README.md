@@ -1,5 +1,5 @@
 
-# 🍿 Outil de Réencodage Vidéo : Popcorn Hour A200/A220 Optimisé
+# Outil de Réencodage Vidéo : Popcorn Hour A200/A220 Optimisé
 
 Ce dépôt contient un script Batch (`reencode-script.bat`) permettant de convertir facilement et rapidement vos fichiers vidéo volumineux en un format optimisé pour les anciens lecteurs multimédias **Popcorn Hour (modèles A200/A220)**.
 
@@ -7,7 +7,7 @@ Le script utilise **FFmpeg** et tire parti de l'accélération matérielle **NVI
 
 ---
 
-## ✨ Caractéristiques Clés du Réencodage
+## Caractéristiques Clés du Réencodage
 
 * **Codec Vidéo :** H.264 (compatibilité maximale)
 * **Codec Audio :** AC3 Stéréo (192 kbps)
@@ -17,7 +17,7 @@ Le script utilise **FFmpeg** et tire parti de l'accélération matérielle **NVI
 
 ---
 
-## 🚀 Instructions et Téléchargement
+## Instructions et Téléchargement
 
 **Toutes les instructions d'installation, les prérequis (installation de FFmpeg) et le guide d'utilisation (glisser-déposer) sont détaillés sur la page officielle du projet :**
 
