@@ -1,0 +1,51 @@
+h1{
+font-size: 50px;
+    text-align: center;
+    color: #004c99;
+}
+
+h2{
+font-size: 30px;
+    text-align: center;
+    color: #004c99; 
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 5px;
+}
+
+h3{
+font-size: 20px;
+    text-align: left;
+    color: #004c99; 
+    margin-left: 100px;
+}
+
+p{
+font-size: 20px;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+body {
+background-color: #f8f9fa; 
+    color: #343a40; 
+    font-family: Helvetica, sans-serif
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 20px auto; 
+    border-radius: 8px;
+}
+
+.link-indent {
+    margin-left: 80px;
+    display: block;
+    margin-bottom: 20px;
+}
+.link-indent a {
+    color: #28a745; 
+    font-size: 20px;
+}
