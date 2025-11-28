@@ -19,11 +19,11 @@
 
 Cet outil est un <strong>script de conversion</strong> puissant conçu pour optimiser rapidement vos films pour les lecteurs multimédias compatibles H.264.
 
-<h3>⚡ Accélération NVENC (Recommandé)</h3>
+<h3>1) Accélération NVENC (Recommandé)</h3>
 <p>Pour atteindre les vitesses d'encodage extrêmes mentionnées dans la section Fonctionnalités, vous devez disposer d'une carte graphique NVIDIA compatible avec la technologie NVENC (GPU de série GeForce 900 ou plus récent).<br><br>
 Bien que FFmpeg fonctionne sans cela, l'encodage sera beaucoup plus lent.</p>
 
-<h3>⚠️ Étape Cruciale : Installation de FFmpeg ⚠️</h3>
+<h3>2) Étape Cruciale : Installation de FFmpeg </h3>
 	<p> Notre outil repose sur FFmpeg, l'outil de traitement vidéo open-source le plus performant au monde.
 
 <strong>Avant de télécharger et d'utiliser notre script, vous devez impérativement :</strong><br><br>
@@ -34,38 +34,39 @@ Bien que FFmpeg fonctionne sans cela, l'encodage sera beaucoup plus lent.</p>
 <p/>
  - Ajouter ffmpeg.exe dans <strong>votre variable d'environnement PATH.</strong>
 </p>
-<h3>⚡ Installation et utilisation de notre logiciel ⚡</h3>
+<h3>3) Installation et utilisation du logiciel </h3>
 <p><strong> - Télécharger la dernière version :</strong></p>
 <div class="link-indent">	<a href= "https://github.com/BYRic-F/video-reencoder-popcorn-a200/archive/refs/heads/main.zip"> Télécharger le Script de Conversion (Fichier .BAT) </a>
 	</div>
 <p> Notre outil a été conçu pour être extrêmement simple à utiliser grâce à la fonctionnalité de glisser-déposer (Drag & Drop) de Windows.<br><br>
 	<strong> - Votre Script (.bat): </strong>Placez-le où vous voulez sur votre bureau ou dans un dossier de travail.<br><br>
 	<strong> - Le Film à Encoder : </strong>Le film peut se trouver n'importe où sur votre ordinateur.
-<h3>📄Lancement de l'Encodage📄</h3>
+<h3>4)Lancement de l'Encodage</h3>
 <p> - Cliquez et faites glisser ce fichier vidéo directement sur l'icône de votre script Batch<br><br>
 	- Une fenêtre de console s'ouvrira, affichant la progression de l'encodage.<br><br>
 	- À la fin du processus, <strong>un nouveau fichier sera créé dans le même dossier que le script original</strong>, portant le suffixe _A220.mkv<br><br>
 
 <h2> 🚀 Fonctionnalités Clés 🚀</h1><br>
-<p> -⚡<strong> Encoded by NVENC (NVIDIA) :</strong> Profitez d'une vitesse d'encodage extrême grâce à l'accélération matérielle (CUDA) de votre carte graphique NVIDIA.<br><br>
-	- 🎬 <strong>Qualité 1080p Optimale : </strong>Tous les films sont redimensionnés au format Full HD (1080p) maximum. Le mode Constant Quality (CQ) est utilisé pour garantir un rendu visuel parfait à un débit binaire (Bitrate) idéal de 5 Mbps.<br><br>
-	- 🔊 <strong>Compatibilité Universelle : </strong>Le logiciel encode la vidéo en H.264 et l'audio en AC3 Stéréo, assurant la lecture sur les anciens lecteurs multimédia (comme le Popcorn Hour A-220) et les appareils modernes.<br><br>
-	- 📄 <strong>Sous-titres Préservés :</strong> Toutes les pistes de sous-titres originales sont copiées directement dans le nouveau conteneur MKV sans perte.<br><br></p>
+<p> -<strong> Encoded by NVENC (NVIDIA) :</strong> Profitez d'une vitesse d'encodage extrême grâce à l'accélération matérielle (CUDA) de votre carte graphique NVIDIA.<br><br>
+	- <strong>Qualité 1080p Optimale : </strong>Tous les films sont redimensionnés au format Full HD (1080p) maximum. Le mode Constant Quality (CQ) est utilisé pour garantir un rendu visuel parfait à un débit binaire (Bitrate) idéal de 5 Mbps.<br><br>
+	- <strong>Compatibilité Universelle : </strong>Le logiciel encode la vidéo en H.264 et l'audio en AC3 Stéréo, assurant la lecture sur les anciens lecteurs multimédia (comme le Popcorn Hour A-220) et les appareils modernes.<br><br>
+	- <strong>Sous-titres Préservés :</strong> Toutes les pistes de sous-titres originales sont copiées directement dans le nouveau conteneur MKV sans perte.<br><br></p>
 
 <h2> ⚙️ Processus de Conversion ⚙️</h1>
-<p> - <strong> 📄 Analyse : </strong>Le logiciel détecte les pistes vidéo, audio et sous-titres.<br><br>
+<p> - <strong>Analyse : </strong>Le logiciel détecte les pistes vidéo, audio et sous-titres.<br><br>
 
-	- <strong>🎬 Mise à l'échelle : </strong>Réduction automatique à 1080p si la source est 4K ou plus (via l'algorithme Lanczos).<br><br>
+	- <strong>Mise à l'échelle : </strong>Réduction automatique à 1080p si la source est 4K ou plus (via l'algorithme Lanczos).<br><br>
 
 
-	- <strong> 🎬 Encodage Vidéo :</strong> Encodage ultra-rapide en H.264 via NVENC, optimisé pour une qualité constante (CQ 22).<br><br>
+	- <strong>Encodage Vidéo :</strong> Encodage ultra-rapide en H.264 via NVENC, optimisé pour une qualité constante (CQ 22).<br><br>
 
-	- <strong> 🔊Encodage Audio : </strong>Conversion en AC3 Stéréo (192kbps) pour une compatibilité maximale.<br><br>
+	- <strong>Encodage Audio : </strong>Conversion en AC3 Stéréo (192kbps) pour une compatibilité maximale.<br><br>
 
-	- <strong> 📄 Finalisation : </strong>Création d'un fichier .mkv léger et prêt à être lu ! </p> 
+	- <strong>Finalisation : </strong>Création d'un fichier .mkv léger et prêt à être lu ! </p> 
 
 <br><br><br><br>
 <p><strong> Merci et bon film </p></strong>
 </body> 
 
 </html>
+
