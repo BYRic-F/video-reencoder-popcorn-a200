@@ -21,6 +21,6 @@ Le script utilise **FFmpeg** et tire parti de l'accélération matérielle **NVI
 
 **Toutes les instructions d'installation, les prérequis (installation de FFmpeg) et le guide d'utilisation (glisser-déposer) sont détaillés sur la page officielle du projet :**
 
-➡️  $$\text{[https://byric-f.github.io/video-reencoder-popcorn-a200/](https://byric-f.github.io/video-reencoder-popcorn-a200/)}$$ ⬅️
+➡️ [https://byric-f.github.io/video-reencoder-popcorn-a200/](https://byric-f.github.io/video-reencoder-popcorn-a200/)⬅️
 
 (Cliquez sur ce lien pour voir le guide complet et le lien de téléchargement du script.)
